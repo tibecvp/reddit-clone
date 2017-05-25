@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1>Reddit Clone New Title</h1>
+				<h1><a style="color: #98d12e; text-decoration: none; font-weight: bolder;" href="{{route('posts_path')}}">Reddit </a>Clone New Title</h1>
 			</div>
 		</div>
 		<hr>
