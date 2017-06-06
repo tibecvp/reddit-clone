@@ -13,7 +13,7 @@ class PostsController extends Controller
     {
     	// $posts = Post::all();
         $posts = Post::orderBy('id', 'desc')->paginate(10);
-    	return view('posts.index')->with(['posts' => $posts]);
+        return view('posts.index')->with(['posts' => $posts]);
     }
 
     public function show(Post $post)

@@ -5,7 +5,10 @@
 @endsection
 
 @section('content')
-	
+	<!-- otra forma de ver si el arreglo está vacío if($posts->count() == 0) -->
+	@if($posts->isempty())
+		<h2>No existen posts, perrito</h2>
+	@endif
 	@foreach($posts as $post)
 		<div class="row">
 			<div class="col-md-12">
